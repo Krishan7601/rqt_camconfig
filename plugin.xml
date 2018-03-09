@@ -4,7 +4,7 @@
       Display image and configuration options.
     </description>
     <qtgui>
-      <label>Drone Plugin</label>
+      <label>Drone - Cam Config</label>
       <icon type="theme">system-help</icon>
       <statustip>CamConfig Plugin.</statustip>
     </qtgui>

@@ -22,8 +22,7 @@ class CamConfig(Plugin):
                       help="Put plugin in silent mode")
         args, unknowns = parser.parse_known_args(context.argv())
         if not args.quiet:
-            print 'arguments: ', args
-            print 'unknowns: ', unknowns
+            print 'Running rqt_drone_camConfig'
 
         # Create QWidget
         self._widget = QWidget()

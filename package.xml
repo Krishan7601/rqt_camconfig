@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>rqt_drone</name>
+  <name>rqt_camconfig</name>
   <version>0.0.0</version>
   <description>The rqt_drone package</description>
   <maintainer email="krishan@todo.todo">krishan</maintainer>

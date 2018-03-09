@@ -1,5 +1,5 @@
 <library path="src">
-  <class name="Drone CamConfig Plugin" type="rqt_drone.camConfig.CamConfig" base_class_type="rqt_gui_py::Plugin">
+  <class name="Drone CamConfig Plugin" type="rqt_camconfig.camConfig.CamConfig" base_class_type="rqt_gui_py::Plugin">
     <description>
       Display image and configuration options.
     </description>

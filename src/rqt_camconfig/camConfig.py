@@ -27,9 +27,9 @@ class CamConfig(Plugin):
         # Create QWidget
         self._widget = QWidget()
         # Get path to UI file which should be in the "resource" folder of this package
-        ui_file = os.path.join(rospkg.RosPack().get_path('rqt_drone'), 'resource', 'CamConfig.ui')
+        ui_file = os.path.join(rospkg.RosPack().get_path('rqt_camconfig'), 'resource', 'CamConfig.ui')
         # Extend the widget with all attributes and children from UI file
-        loadUi('/home/krishan/catkin_ws/src/rqt_drone/resource/CamConfig.ui', self._widget, {'CamConfigView' : 'CamConfigView'})
+        loadUi('/home/krishan/catkin_ws/src/rqt_camconfig/resource/CamConfig.ui', self._widget, {'CamConfigView' : 'CamConfigView'})
         # Give QObjects reasonable names
         self._widget.setObjectName('CamConfigUI')
         # Show _widget.windowTitle on left-top of each plugin (when 
